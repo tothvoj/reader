@@ -3,8 +3,14 @@ package cz.appvision.ebookreader;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.mcsoxford.rss.RSSFeed;
+import org.mcsoxford.rss.RSSItem;
+import org.mcsoxford.rss.RSSReader;
+import org.mcsoxford.rss.RSSReaderException;
+
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -84,7 +90,8 @@ public class MainActivity extends Activity implements OnClickListener {
 			break;
 			
 		case R.id.toolbarMenuOption3:
-			
+			new RetrieveFeedTask().execute("http://feeds.bbci.co.uk/news/world/rss.xml");
+			  			  
 			contentFrameLayout.removeAllViews();
 			break;
 			
