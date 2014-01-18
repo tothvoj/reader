@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/knihovna_na_vysku2x"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="30dp"
+    android:weightSum="6" >
+
+    <LinearLayout
+        android:id="@+id/polica1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="6" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/polica2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="6" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/polica3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="6" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/polica4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="6" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/polica5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="5" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/polica6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+    </LinearLayout>
+
+</LinearLayout>

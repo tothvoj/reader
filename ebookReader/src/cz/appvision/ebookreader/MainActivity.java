@@ -3,6 +3,7 @@ package cz.appvision.ebookreader;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
@@ -31,7 +32,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	private ImageFetcher imageFetcher;
 	private ProgressBar progressBar;
 	private View oNasLayout;
-	
+	WebView webView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -139,6 +140,11 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 			}
 		}
 
+	}
+
+	@Override
+	public void onConfigurationChanged(Configuration newConfig) {
+		super.onConfigurationChanged(newConfig);
 	}
 
 }
